@@ -9,12 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
 
-    // Variables
-    @State var useNumbers = false
-    @State var useLower = false
-    @State var useUpper = false
-    @State var useSymbols = false
-    @State var length = 8
+    // User defaults
+    let defaults = UserDefaults.standard
+
+    // Variables with AppStorage to retrieve user defaults
+    @AppStorage("useNumbers") var useNumbers = false
+    @AppStorage("useLower") var useLower = false
+    @AppStorage("useUpper") var useUpper = false
+    @AppStorage("useSymbols") var useSymbols = false
+    @AppStorage("length") var length = 8
+
+    // Other variables
     let LengthRange = 1 ... 50
     @State var password = ""
     @State var showAlert = false
@@ -24,6 +29,7 @@ struct ContentView: View {
 
     // View
     var body: some View {
+
         VStack(alignment: .center) {
             Text("Random Password Generator")
                 .font(.title)

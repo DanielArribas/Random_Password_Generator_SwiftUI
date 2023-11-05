@@ -9,10 +9,12 @@ import Foundation
 
 struct RandomPassword {
     
+    // Constants
     let symbols = "~`!@#$%^&*()_-+={[}]|\\:;\"'<,>.?/"
     let lowerCase = "abcdefghijklmnopqrstuvwxyz"
     let upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     let numbers = "01234567890"
+    // Variables
     var subset = ""
     var pwd = ""
     
