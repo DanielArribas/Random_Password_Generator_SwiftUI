@@ -11,6 +11,7 @@
 		D8B4D4EC2AE71952009D7072 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4D4EB2AE71952009D7072 /* ContentView.swift */; };
 		D8B4D4EE2AE71954009D7072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B4D4ED2AE71954009D7072 /* Assets.xcassets */; };
 		D8B4D4F12AE71954009D7072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B4D4F02AE71954009D7072 /* Preview Assets.xcassets */; };
+		D8B4D4FA2AE72061009D7072 /* RandomPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4D4F92AE72061009D7072 /* RandomPassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D8B4D4EB2AE71952009D7072 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8B4D4ED2AE71954009D7072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8B4D4F02AE71954009D7072 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8B4D4F92AE72061009D7072 /* RandomPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				D8B4D4E92AE71952009D7072 /* Random_PassApp.swift */,
-				D8B4D4EB2AE71952009D7072 /* ContentView.swift */,
+				D8B4D4F82AE72023009D7072 /* Model */,
+				D8B4D4F72AE72019009D7072 /* View */,
 				D8B4D4ED2AE71954009D7072 /* Assets.xcassets */,
 				D8B4D4EF2AE71954009D7072 /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				D8B4D4F02AE71954009D7072 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8B4D4F72AE72019009D7072 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8B4D4EB2AE71952009D7072 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8B4D4F82AE72023009D7072 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8B4D4F92AE72061009D7072 /* RandomPassword.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8B4D4EC2AE71952009D7072 /* ContentView.swift in Sources */,
+				D8B4D4FA2AE72061009D7072 /* RandomPassword.swift in Sources */,
 				D8B4D4EA2AE71952009D7072 /* Random_PassApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
